@@ -1,0 +1,12 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/demo_sso?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=Tony@3898
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.main.allow-circular-references=true
+server.port=5001
+
+saml.keystore.location=saml-keystore.jks
+saml.keystore.password=aaaa
+saml.keystore.alias=demospringsaml
+saml.idp=http://www.okta.com/{key}
+saml.sp=http://localhost:5001/saml/metadata
